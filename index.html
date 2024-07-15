@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fanvy</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #9534e6, #f75fd1, #f02c2c);
+    background-blend-mode: darken;
+    opacity: 100; /* Atur nilai opasitas sesuai keinginan */
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Efek bayangan untuk teks */
+}
+
+.header h1 {
+    font-size: 29px;
+    color: #fcfcfc;
+    font-weight: 500; /* Menyesuaikan ketebalan font menjadi lebih tipis */
+    
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.links a {
+    display: block;
+    padding: 18px 15px;
+    background-color: #fff;
+    border-radius: 40px;
+    text-decoration: none;
+    color: #333;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+    font-weight: bold; /* Tambahkan efek bold */
+}
+
+.links a:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-2px); /* Naikkan box links */
+}
+
+.links a:hover span {
+    transition-delay: 0.4s; /* Tambahkan delay untuk animasi teks */
+    color: #ff007f; /* Ubah warna teks saat dihover */
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile img {
+    width: 100px; /* Sesuaikan dengan ukuran yang diinginkan */
+    height: 100px; /* Sesuaikan dengan ukuran yang diinginkan */
+    border-radius: 50%; /* Agar gambar menjadi bulat */
+    margin-bottom: 0px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Efek bayangan untuk teks */
+}
+
+.profile h1 {
+    font-size: 10px;
+}
+
+.profile h1 {
+    font-size: 18px;
+    font-variant: small-caps; /* Menggunakan small caps untuk judul */
+}
+
+footer {
+    position: fixed; /* Mengatur posisi tetap */
+    bottom: 0; /* Menempatkan footer di bagian bawah */
+    left: 50%; /* Menggeser footer ke tengah horizontal */
+    transform: translateX(-50%); /* Menggeser footer ke tengah horizontal */
+    width: 100%; /* Memastikan footer menempati seluruh lebar halaman */
+    text-align: center; /* Menengahkan isi footer */
+    background-color: #f0f0f000; /* Warna latar belakang footer */
+    padding: 20px 0; /* Padding atas dan bawah footer */
+}
+
+.social-icons {
+    display: inline-block; /* Menyusun ikon sosial media dalam satu baris */
+}
+
+.social-icons a {
+    margin: 0 10px; /* Jarak antara ikon sosial media */
+}
+
+.social-icons img {
+    width: 32px; /* Ukuran lebar ikon */
+    height: 32px; /* Ukuran tinggi ikon */
+    width: 32px; /* Ukuran lebar ikon */
+    height: 32px; /* Ukuran tinggi ikon */
+    filter: invert(1); /* Membalikkan warna menjadi putih */
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="ppf.jpg" alt="Your Profile Picture">
+        <div class="header">
+            <h1>fanvy ofc</h1>
+        </div>
+        <div class="links">
+            <a href="#">Im a designer</a>
+            <a href="#">Ur being annoying</a>
+            <a href="#">There is no such thing</a>
+            <a href="#">Womp Womp</a>
+            <a href="#">Is that right hagrid</a>
+        </div>
+    </div>
+</body>
+<footer>
+    <div class="social-icons">
+        <a href="https://www.facebook.com/" target="_blank"><img src="facelog.png" alt="Facebook"></a>
+        <a href="https://twitter.com/" target="_blank"><img src="twitlog.png" alt="Twitter"></a>
+        <a href="https://www.instagram.com/" target="_blank"><img src="inslog.png" alt="Instagram"></a>
+    </div>
+</footer>
+</html>
